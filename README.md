@@ -1,9 +1,15 @@
-# Text Classifier
+# Text Topic Classifier 🚀
 
-A simple machine learning app that classifies text as either about **Space** or **Baseball**.
+This is a simple machine learning model that classifies text as being related to **Space** or **Baseball** using a Naive Bayes classifier.
 
-## Features
+## 🔧 Files
 
-- Uses scikit-learn's Naive Bayes model
-- Trained on the 20 Newsgroups dataset
-- Easy-to-use Gradio web interface
+- `text_classifier.joblib`: Pre-trained classification model
+- `app.py`: Gradio app to interact with the model
+- `requirements.txt`: Required Python packages
+
+## 🖥️ Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
